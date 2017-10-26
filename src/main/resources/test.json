@@ -1,0 +1,130 @@
+{
+  "result": {
+    "type": "json",
+    "value": [
+      {
+        "name": "Оформить карту",
+        "id": "group_1",
+        "items": [
+          {
+            "id": "product_1",
+            "title": "Кредитная карта",
+            "name": "All Airlines",
+            "link": "/cards/credit-cards/all-airlines/#form-application",
+            "accountType": "credit",
+            "cardDesign": "0e3368bcd0076d5c1f63c03b7eb3dad5"
+          },
+          {
+            "id": "product_2",
+            "title": "Кредитная карта",
+            "link": "/cards/credit-cards/tinkoff-platinum/#form-application",
+            "name": "Tinkoff Platinum",
+            "accountType": "credit"
+          },
+          {
+            "id": "product_3",
+            "title": "Дебетовая карта",
+            "link": "/cards/debit-cards/tinkoff-black/#form-application",
+            "name": "Tinkoff Black",
+            "accountType": "current",
+            "cardDesign": "ada4cc2cf258df204175dec503384f04"
+          },
+          {
+            "id": "product_5",
+            "name": "Дополнительная карта",
+            "accessLevel": 40,
+            "link": "/card-additional/",
+            "logo": {
+              "componentName": "AdditionalCardProduct",
+              "size": 50,
+              "color": "gray"
+            },
+            "requiredRoles": [
+              "CLIENT"
+            ]
+          },
+          {
+            "id": "product_6",
+            "name": "Карта другого банка",
+            "link": "/other-bank-card/",
+            "logo": {
+              "componentName": "AddCard",
+              "size": "50",
+              "color": "gray"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Открыть депозит",
+        "id": "group_3",
+        "items": [
+          {
+            "id": "deposit_1",
+            "name": "Вклад",
+            "link": "/deposit/#form",
+            "accountType": "deposit"
+          },
+          {
+            "id": "deposit_2",
+            "name": "Накопительный счет",
+            "accessLevel": 40,
+            "link": "/accounts/create-saving/",
+            "accountType": "saving",
+            "requiredRoles": [
+              "CLIENT"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Оформить кредит",
+        "id": "group_4",
+        "items": [
+          {
+            "id": "credit_1",
+            "name": "Кредит наличными",
+            "link": "/loans/cash-loan/#form-application",
+            "logo": {
+              "noBorder": true,
+              "componentName": "Finance",
+              "size": "42",
+              "color": "dorblue",
+              "bgColor": "gray-iron"
+            }
+          },
+          {
+            "id": "credit_2",
+            "name": "Ипотека",
+            "link": "/loans/mortgage/#mortgage-form",
+            "logo": {
+              "noBorder": true,
+              "componentName": "House",
+              "size": "42",
+              "color": "dorblue",
+              "bgColor": "gray-iron"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Оформить счет",
+        "id": "group_5",
+        "items": [
+          {
+            "id": "trading_account_1",
+            "name": "Брокерский счет",
+            "link": "/invest/#trading-form",
+            "logo": {
+              "noBorder": true,
+              "componentName": "TradingCoins",
+              "size": "42",
+              "color": "dorblue",
+              "bgColor": "gray-iron"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
